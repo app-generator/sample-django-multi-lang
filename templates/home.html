@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% load i18n static%} {% block body %}
+<div class="container">
+ 
+    <div class="row mt-4">
+        <h4>i18 test</h4>
+        <ul>
+            <li>{% trans 'Lorem ipsum dolor sit amet.' %}</li>
+            <li>{% trans 'adipisicing elit. Necessitatibus, dicta.' %}</li>
+            <li>{% trans 'provident ad id eius atque. Nostrum, voluptatibus id?' %}</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock body %}
